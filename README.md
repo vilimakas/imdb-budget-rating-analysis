@@ -86,7 +86,7 @@ Steps:
 SQL analysis included:
 
 - Budget vs rating dataset extraction
-- Budget bucket grouping using CASE logic
+- Budget amount grouping using CASE logic
 - Average rating by decade
 - Genre rating analysis using:
   - string_to_array
