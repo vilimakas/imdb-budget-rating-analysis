@@ -1,0 +1,5 @@
+"budget_amount","avg_rating","movie_count","highest_rating","lowest_rating"
+"Low (<10M)","6.51","2155","9.6","1.6"
+"Blockbuster (150M+)","6.51","276","8.3","2.5"
+"Medium (10–50M)","6.49","2435","9.6","1.5"
+"High (50–150M)","6.47","1001","10","2.3"
