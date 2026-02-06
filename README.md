@@ -77,7 +77,8 @@ Process:
 Python scripts available in:
 
 ```
-/python
+[`python/`](python/)
+
 ```
 
 ---
@@ -108,7 +109,8 @@ SQL analysis included:
 Queries available in:
 
 ```
-/SQL_queries
+[`SQL_queries/`](SQL_queries/)
+
 ```
 
 ---
@@ -140,6 +142,7 @@ Correlation result (SQL):
 
 ```
 Correlation ≈ -0.01
+
 ```
 
 Trend line regression in Tableau:
@@ -173,7 +176,8 @@ Dashboard includes:
 SQL query outputs used for visualization are stored in:
 
 ```
-/data_for_tableau
+[`data_for_tableau/`](data_for_tableau/)
+
 ```
 
 Files include:
