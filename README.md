@@ -39,16 +39,6 @@ Dataset description:
   - awards
   - financial fields
 
-Files used in this project:
-
-```
-merged_movies_data_[year].csv
-```
-
-For this analysis, movies from **2000–2025** were used.
-
----
-
 ## Python Data Preparation
 
 Python (pandas) was used to merge and clean the yearly datasets.
@@ -76,10 +66,9 @@ Process:
 
 Python scripts available in:
 
-```
 [`python/`](python/)
 
-```
+
 
 ---
 
@@ -108,10 +97,8 @@ SQL analysis included:
 
 Queries available in:
 
-```
 [`SQL_queries/`](SQL_queries/)
 
-```
 
 ---
 
@@ -175,10 +162,7 @@ Dashboard includes:
 
 SQL query outputs used for visualization are stored in:
 
-```
 [`data_for_tableau/`](data_for_tableau/)
-
-```
 
 Files include:
 
