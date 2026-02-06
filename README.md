@@ -156,7 +156,7 @@ https://public.tableau.com/app/profile/vilimas.sipaila/viz/imdb_budget_vs_rating
 
 ## Dashboard Preview
 
-![Dashboard Preview](data_for_tablaeu/dashboard_preview.png)
+![Dashboard Preview](data_for_tableau/dashboard_preview.png)
 
 Dashboard includes:
 
