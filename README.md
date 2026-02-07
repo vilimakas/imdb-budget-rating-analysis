@@ -9,7 +9,7 @@ Analysis of movie production budgets and their relationship with IMDb ratings us
 Analyze whether higher movie production budgets are associated with higher IMDb ratings, and explore how ratings vary across:
 
 - budget ranges
-- s
+- genres
 - decades
 
 The project demonstrates a full analytics workflow from raw multi-file datasets to cleaned data, SQL analysis, and dashboard visualization.
@@ -123,7 +123,6 @@ To avoid unreliable averages from very small samples, genres with fewer than 50 
 - Budget and IMDb rating show **near-zero correlation**
 - Higher budgets do not reliably produce higher ratings
 - Average ratings are very similar across all budget ranges
--  differences are more meaningful than budget differences
 - Documentary and biography films have the highest average ratings
 - Rating averages are stable across decades
 - Overall, production budget is not a reliable predictor of IMDb rating in this dataset.
@@ -134,6 +133,9 @@ Correlation result (SQL):
 Correlation ≈ -0.01
 
 ```
+## Top 10 movies from this 2000-2025 dataset based on IMDb ratings
+
+[`top10_movies_based_on_ratings_table.csv`](SQL_queries/top10_movies_based_on_ratings_table.csv)
 
 Trend line regression in Tableau:
 
