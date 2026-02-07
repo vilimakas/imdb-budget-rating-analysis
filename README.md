@@ -9,7 +9,7 @@ Analysis of movie production budgets and their relationship with IMDb ratings us
 Analyze whether higher movie production budgets are associated with higher IMDb ratings, and explore how ratings vary across:
 
 - budget ranges
-- genres
+- s
 - decades
 
 The project demonstrates a full analytics workflow from raw multi-file datasets to cleaned data, SQL analysis, and dashboard visualization.
@@ -34,7 +34,7 @@ Dataset description:
 - Includes:
   - ratings
   - budgets
-  - genres
+  - s
   - metadata
   - awards
   - financial fields
@@ -52,7 +52,7 @@ Process:
   - Year
   - Rating
   - budget
-  - genres
+  - s
   - awards_content
 - Removed numeric prefixes from titles
 - Filtered rows to budgets listed in USD only
@@ -88,7 +88,7 @@ SQL analysis included:
 - Budget vs rating dataset extraction
 - Budget amount grouping using CASE logic
 - Average rating by decade
-- Genre rating analysis using:
+-  rating analysis using:
   - string_to_array
   - unnest
   - regexp_replace
@@ -114,13 +114,16 @@ Movies were grouped into budget categories:
 Used to compare rating averages across production scale.
 
 ---
+## Methodology Note — Genre Sample Size
+
+To avoid unreliable averages from very small samples, genres with fewer than 50 movies in the dataset were excluded from the genre rating comparison. This ensures that reported genre averages are based on sufficiently large sample sizes.
 
 ## Key Findings
 
 - Budget and IMDb rating show **near-zero correlation**
 - Higher budgets do not reliably produce higher ratings
 - Average ratings are very similar across all budget ranges
-- Genre differences are more meaningful than budget differences
+-  differences are more meaningful than budget differences
 - Documentary and biography films have the highest average ratings
 - Rating averages are stable across decades
 - Overall, production budget is not a reliable predictor of IMDb rating in this dataset.
@@ -153,7 +156,7 @@ Dashboard includes:
 - Budget vs Rating scatter with trend line
 - Average rating by budget range
 - Average rating by decade
-- Average rating by genre
+- Average rating by 
 - Interactive filters
 
 ---
@@ -169,7 +172,7 @@ Files include:
 - budget_vs_rating.csv
 - budget_amounts.csv
 - ratings_by_decade.csv
-- genre_ratings.csv
+- _ratings.csv
 
 ---
 
